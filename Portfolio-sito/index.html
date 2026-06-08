@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archivio Lavori</title>
+    <style>
+        /* Stile minimale ispirato ad abbastanzanormale.it */
+        body {
+            font-family: Georgia, serif; 
+            line-height: 1.6;
+            color: #000000;
+            max-width: 750px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #ffffff;
+        }
+
+        header {
+            margin-bottom: 50px;
+            border-bottom: 1px solid #000000;
+            padding-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            font-weight: normal;
+            margin: 0 0 5px 0;
+        }
+
+        .sottotitolo {
+            font-style: italic;
+            color: #555555;
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        .elenco-lavori {
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+        }
+
+        .lavoro-item {
+            margin-bottom: 40px; 
+        }
+
+        .link-lavoro {
+            font-size: 1.15rem;
+            color: #0000ee; 
+            text-decoration: underline;
+            font-weight: bold;
+        }
+
+        .link-lavoro:visited {
+            color: #551a8b; 
+        }
+
+        .descrizione-lavoro {
+            margin: 8px 0 0 0;
+            font-size: 1rem;
+            color: #111111;
+            text-align: justify; 
+        }
+        
+        .nota-lavoro {
+            font-size: 0.85rem;
+            color: #666666;
+            margin-top: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>I Miei Lavori</h1>
+        <p class="sottotitolo">Contenitore e archivio dei progetti.</p>
+    </header>
+
+    <main>
+        <ul class="elenco-lavori">
+
+            <li class="lavoro-item">
+                <a href="allegati/progetto-uno.pdf" target="_blank" class="link-lavoro">
+                    01. Titolo del Primo Progetto (PDF)
+                </a>
+                <p class="descrizione-lavoro">
+                    Inserisci qui la descrizione del tuo primo progetto. Quando il sito sarà online, cliccando sul link qui sopra, il browser aprirà direttamente il file PDF memorizzato nella cartella del tuo sito.
+                </p>
+                <div class="nota-lavoro">Anno: 2026 — Tipo: Categoria Progetto</div>
+            </li>
+
+            <li class="lavoro-item">
+                <a href="allegati/progetto-due.pdf" target="_blank" class="link-lavoro">
+                    02. Titolo del Secondo Progetto (PDF)
+                </a>
+                <p class="descrizione-lavoro">
+                    Inserisci qui la descrizione del tuo secondo progetto. Anche in questo caso il file verrà caricato direttamente dal tuo spazio web senza dipendere da piattaforme esterne.
+                </p>
+                <div class="nota-lavoro">Anno: 2026 — Tipo: Categoria Progetto</div>
+            </li>
+
+        </ul>
+    </main>
+
+</body>
+</html>
